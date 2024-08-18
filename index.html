@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, I'm [Kalash Rai]</h1>
+            <p>Welcome to my portfolio. I’m a [BCA Student], and I love to create amazing and exotic things.</p>
+            <a href="#portfolio" class="btn">See My Work</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Here's a bit about me and my background. I am passionate about [my work].</p>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="gallery">
+                <!-- Example project -->
+                <div class="project">
+                    <img src="./image/ss.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Description of Project 1.</p>
+
+                    <img src="./image/ss2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Description of Project 2 .</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Kalash Rai" required>
+                <input type="email" id="email" name="email" placeholder="iamskalashrai@gmail.com" required>
+                <textarea id="message" name="message" placeholder="your internee" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
